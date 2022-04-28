@@ -9,10 +9,10 @@ export default function VehicleList({ vehicles }) {
         {/* map through the vehicles array in props */}
         {/* for each item render a Vehicle component. Pass the vehicle string as a prop called vehicle to the Vehicle component.  */}
 
-        {vehicles.map(vehicle =>
+        {vehicles.map((vehicle, index) =>
           <Vehicle
             vehicles={vehicle}
-            key={vehicle}
+            key={vehicle + index}
           />)}
       </div>
     </>
