@@ -13,8 +13,7 @@ export default function VehicleList({ vehicles }) {
           <Vehicle
             vehicles={vehicle}
             key={vehicle}
-            vehicle={vehicle} />)}
-
+          />)}
       </div>
     </>
   );

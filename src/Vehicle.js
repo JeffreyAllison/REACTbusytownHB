@@ -7,9 +7,9 @@ export default function Vehicle({ vehicles }) {
     {/* if the vehicle props is a truck, render a '🚚' emoji */}
     {/* if the vehicle props is a bus, render a '🚌' emoji */}
     {/* if the vehicle props is a motorcycle, render a '🏍️' emoji */}
-    {vehicles.vehicle === 'car' && '🚗'}
-    {vehicles.vehicle === 'truck' && '🚚'}
-    {vehicles.vehicle === 'bus' && '🚌'}
-    {vehicles.vehicle === 'motorcycle' && '🏍️'}
+    {vehicles === 'car' && '🚗'}
+    {vehicles === 'truck' && '🚚'}
+    {vehicles === 'bus' && '🚌'}
+    {vehicles === 'motorcycle' && '🏍️'}
   </div>;
 }
